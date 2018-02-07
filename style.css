@@ -1,0 +1,94 @@
+* { box-sizing: order-box }
+
+@media (max-width: 960px){
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px){
+  .container{
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px){
+  .container {
+    width: 300px;
+  }
+}
+body{
+  background-color: rgb(240, 240, 240);
+  font-family: 'Open Sans', sans-serif;
+  color:#394032;
+  font-size: 15px;
+  line-height: ;
+}
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#248888;
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.btn-red{
+  background-color: #FD7879;
+  padding: 10px 15px;
+  color: white;
+}
+
+.btn-red:hover{
+  color: white;
+  background-color: red;
+}
+
+a:hover{
+  color:#DD3E3E;
+  text-decoration: none;
+}
+
+.box{
+ background-color: white;
+ padding: 20px;
+ width: 80%;
+ margin: 30px auto;
+ box-shadow: 1px, 1px, 3px rgba(0, 0, 0, 0.1)
+}
+
+.green-border{
+  border: 15px dotted lightgrey;
+}
+.list-inline{
+  padding-left: 0;
+}
+
+.list-inline li{
+ display: inline;
+}
+ul{
+  list-style: none;
+}
+.text-center{
+  text-align: center;
+}
+
+.profile-pic-container{
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  position: relative;
+  overflow: hidden;
+  margin: auto}
+
+#profile-pic{
+  position: absolute;
+  top: 0;
+  left: -85px;
+}
+
+.films{
+  width: 200px;
+  height:300px;
+  object-fit: cover;
+  margin-right: 20px;
+}
